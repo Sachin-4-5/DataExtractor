@@ -9,7 +9,7 @@ DataExtractor is a lightweight, extensible .NET Framework 4.7.2 console applicat
 
 
 ## 🚀 Features  
-✅ Dynamic Configuration via XML: Database connection, query, output format, and path are defined in template.xml. <br />
+✅ Dynamic Configuration via XML: DB conn, query, o/p format, and path are defined in template.xml. <br />
 ✅ Data Export Support: CSV and Excel (via EPPlus Library). <br />
 ✅ Logs info/debug/error messages to a configurable file path (via app.config). <br />
 ✅ Secure and Configurable: No hardcoded credentials, externalized configuration. <br />
@@ -55,9 +55,9 @@ DataExtractor/
 
 
 ## 🛠️ How to Run
-1️⃣ Clone the project in your local.
+1️⃣ Clone the project in your local. <br />
 2️⃣ Pre-requisite : .NET Framework v4.7.2 and Nuget package (EPPlus) <br />
-3️⃣ Command line usage : DataExtractor.exe <template.xml_path>
+3️⃣ Command line usage : DataExtractor.exe <template.xml_path>. <br />
 
 ---
 <br />
