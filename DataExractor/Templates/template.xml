@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Configuration>
+	<Database>
+		<ConnectionString>server=SACHIN\SQLEXPRESS; database=TransactionDB; Integrated Security=True; Connect Timeout=600;</ConnectionString>
+	</Database>
+	<Query>SELECT * FROM Employees</Query>
+	<Output>
+		<Format>CSV</Format>
+		<Path>D:\Output\EmployeeData.csv</Path>
+	</Output>
+</Configuration>
