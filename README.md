@@ -1,6 +1,6 @@
-# DataExtractor
+## DataExtractor
 
-## 📖 Overview  
+### 📘 Overview  
 DataExtractor is a lightweight, extensible .NET Framework 4.7.2 console application designed to extract data from SQL Server databases using dynamic connection and query configuration defined in an external XML template. It exports the result into CSV or Excel files and logs the process for auditing and debugging purposes.
 
 ---
@@ -8,7 +8,7 @@ DataExtractor is a lightweight, extensible .NET Framework 4.7.2 console applicat
 
 
 
-## 🚀 Features  
+### 🚀 Features  
 ✅ Dynamic Configuration via XML: DB conn, query, o/p format, and path are defined in template.xml. <br />
 ✅ Data Export Support: CSV and Excel (via EPPlus Library). <br />
 ✅ Logs info/debug/error messages to a configurable file path (via app.config). <br />
@@ -20,7 +20,7 @@ DataExtractor is a lightweight, extensible .NET Framework 4.7.2 console applicat
 
 
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```
 DataExtractor/
 │── bin\
@@ -40,7 +40,7 @@ DataExtractor/
 
 
 
-## 🔐 Future Enhancements
+### 💡 Future Enhancements
 1️⃣ Support for parameterized queries. <br />
 2️⃣ Encrypted connection strings (via key or certificate). <br />
 3️⃣ Unit testing framework (e.g., MSTest/NUnit integration). <br />
@@ -54,7 +54,7 @@ DataExtractor/
 
 
 
-## 🛠️ How to Run
+### 🛠️ How to Run
 1️⃣ Clone the project in your local. <br />
 2️⃣ Pre-requisite : .NET Framework v4.7.2 and Nuget package (EPPlus) <br />
 3️⃣ Command line usage : DataExtractor.exe <template.xml_path>. <br />
@@ -64,7 +64,7 @@ DataExtractor/
 
 
 
-## 🤝 Contribution
+### 🤝 Contribution
 Pull requests are welcome! To contribute:
 
 1️⃣ Fork the repo <br />
