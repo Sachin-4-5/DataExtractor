@@ -2,7 +2,7 @@
 
 <Configuration>
 	<Database>
-		<ConnectionString>server=SACHIN\SQLEXPRESS; database=TransactionDB; Integrated Security=True; Connect Timeout=600;</ConnectionString>
+		<ConnectionString>server=.; database=TransactionDB; Integrated Security=True; Connect Timeout=600;</ConnectionString>
 	</Database>
 	<Query>SELECT * FROM Employees</Query>
 	<Output>
